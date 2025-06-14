@@ -52,28 +52,28 @@ body{
 
 .lower{
    height: 40px;
-
-   padding: 5px;
+   
    background-color: pink;
 }
 
 .mail{
-    position: relative;
-    margin-left: 150px;
-    font-size: 15px;
+    display: inline-block;
+    position: static;
+    margin-left: 130px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color:  rgb(60, 14, 14);
-    padding-top: 5px;
-    
+    margin-top: 5px;
 }
+
 .tel{
-    position: relative;
-    margin-left: 940px;
-    font-size: 5px;
+    margin-top: 5px;
+     display: inline-block;
+    position: static;
+    margin-left: 670px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(60, 14, 14);
-    padding-top: 5px;
-   
 }
 /*menu start*/
 
@@ -89,7 +89,7 @@ body{
 @media screen and (min-width:995px) {
     .nav-item a::before{
         content: "";
-        position: absolute;
+        position: static;
         background-color: aliceblue;
         width:0;
         height: 2px;
@@ -107,28 +107,33 @@ body{
     
 }
 /* Media query end*/
+.container{
+    width: 100%;
+}
 
 .showcontainer{
-
     text-align: center;
     color: white;
     margin: 20px;
+    width: 600px;
 }
+
 .showimage img{
     width: 100%;
     height: 300px;
     border-radius: 10px;
 }
+
 .card-title{
     color: aqua;
     font-family: 'Times New Roman', Times, serif;
     text-align: center; 
-    font-size: 25px;
+    font-size: 24px;
 }
 
 .showsample {
-    width: 220px;
-    height: 500px;
+    width: 239px;
+    height: 480px;
     margin: 20px;
    text-align: center;
    box-shadow: 5px 5px 5px 0px rgb(22, 22, 22);
@@ -167,6 +172,9 @@ body{
 }
 .showsample{
     background-color:rgb(241, 175, 175);
+}
+.showsample li{
+    text-align: left;
 }
 .showsample h3{
     text-align: center;
