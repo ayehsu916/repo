@@ -59,10 +59,20 @@ body{
 .mail{
     display: inline-block;
     position: static;
-    margin-left: 130px;
-    font-size: 20px;
+    margin-left: 100px;
+    font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
-    color:  rgb(60, 14, 14);
+    color:  rgb(80, 14, 18);
+    margin-top: 5px;
+}
+
+.right{
+    display: inline-block;
+    position: static;
+    margin-left: 285px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(80, 14, 18);
     margin-top: 5px;
 }
 
@@ -70,10 +80,10 @@ body{
     margin-top: 5px;
      display: inline-block;
     position: static;
-    margin-left: 670px;
-    font-size: 20px;
+    margin-left: 415px;
+    font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(60, 14, 14);
+    color:  rgb(80, 14, 18);
 }
 /*menu start*/
 
